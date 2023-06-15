@@ -1,0 +1,885 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Grid Dashboard</title>
+</head>
+<body>
+    <div class="dashboard d-flex">
+
+        <!-- DASHBOARD-SIDEBAR -->
+        <div class="dashboard__sidebar">
+            <button class="dashboard__sidebar-menu mb-2">
+                <i class="bi bi-list"></i>
+            </button>
+
+            <ul class="dashboard__sidebar-list list-unstyled">
+                <li class="dashboard__sidebar-list">
+                    <button class="dashboard__sidebar-btn">
+                        <img class="dashboard__sidebar-img" src="./images/home.svg" alt="icon" width="55" height="56">
+                    </button>
+                </li>
+
+                <li class="dashboard__sidebar-list">
+                    <button class="dashboard__sidebar-btn">
+                        <img class="dashboard__sidebar-img" src="./images/tablet.svg" alt="icon" width="55" height="56">
+                    </button>
+                </li>
+
+                <li class="dashboard__sidebar-list">
+                    <button class="dashboard__sidebar-btn">
+                        <img class="dashboard__sidebar-img" src="./images/switch.svg" alt="icon" width="55" height="56">
+                    </button>
+                </li>
+
+                <li class="dashboard__sidebar-list">
+                    <button class="dashboard__sidebar-btn">
+                        <img class="dashboard__sidebar-img" src="./images/docs.svg" alt="icon" width="55" height="56">
+                    </button>
+                </li>
+
+                <li class="dashboard__sidebar-list">
+                    <button class="dashboard__sidebar-btn">
+                        <img class="dashboard__sidebar-img" src="./images/mail.svg" alt="icon" width="55" height="56">
+                    </button>
+                </li>
+
+                <li class="dashboard__sidebar-list">
+                    <button class="dashboard__sidebar-btn">
+                        <img class="dashboard__sidebar-img" src="./images/maps.svg" alt="icon" width="55" height="56">
+                    </button>
+                </li>
+
+                <li class="dashboard__sidebar-list">
+                    <button class="dashboard__sidebar-btn">
+                        <img class="dashboard__sidebar-img" src="./images/widget.svg" alt="icon" width="55" height="56">
+                    </button>
+                </li>
+
+                <li class="dashboard__sidebar-list">
+                    <button class="dashboard__sidebar-btn">
+                        <img class="dashboard__sidebar-img" src="./images/charts.svg" alt="icon" width="55" height="56">
+                    </button>
+                </li>
+
+                <li class="dashboard__sidebar-list">
+                    <button class="dashboard__sidebar-btn">
+                        <img class="dashboard__sidebar-img" src="./images/calendar.svg" alt="icon" width="55" height="56">
+                    </button>
+                </li>
+
+                <li class="dashboard__sidebar-list">
+                    <button class="dashboard__sidebar-btn span-btn">
+                        <span class="dashboard__sidebar-span"></span>
+                    </button>
+                </li>
+
+                <li class="dashboard__sidebar-list">
+                    <button class="dashboard__sidebar-btn span-btn">
+                        D
+                    </button>
+                </li>
+
+                <li class="dashboard__sidebar-list">
+                    <button class="dashboard__sidebar-btn">
+                        <img class="dashboard__sidebar-img" src="./images/started.svg" alt="icon" width="55" height="56">
+                    </button>
+                </li>
+
+                <li class="dashboard__sidebar-list">
+                    <button class="dashboard__sidebar-btn">
+                        <img class="dashboard__sidebar-img" src="./images/foundation.svg" alt="icon" width="55" height="56">
+                    </button>
+                </li>
+
+                <li class="dashboard__sidebar-list">
+                    <button class="dashboard__sidebar-btn">
+                        <img class="dashboard__sidebar-img" src="./images/component.svg" alt="icon" width="55" height="56">
+                    </button>
+                </li>
+
+                <li class="dashboard__sidebar-list">
+                    <button class="dashboard__sidebar-btn">
+                        <img class="dashboard__sidebar-img" src="./images/plugin.svg" alt="icon" width="55" height="56">
+                    </button>
+                </li>
+            </ul>
+        </div>
+
+        <div class="w-100">
+            <!-- DASHBOARD HEADER -->
+
+            <header class="dashboard__header d-flex align-items-center justify-content-between">
+
+                <div class="d-flex align-items-center">
+                    <span>
+                        <i class="bi bi-search"></i>
+                    </span>
+
+                    <input class="dashboard__header-search" type="text" placeholder="Search">
+                </div>
+
+                <div class="dashboard__header-nav d-flex align-items-center">
+                    <button class="dashboard__header-note-btn me-4">
+                        <i class="bi bi-bell-fill"></i>
+                    </button>
+
+                    <button class="dashboard__header-layer-btn me-4">
+                        <i class="bi bi-layers-fill"></i>
+                    </button>
+
+                    <div class="d-flex align-items-center">
+                        <button class="dashboard__header-profile-btn me-2">
+                            <i class="bi bi-person-circle"></i>
+                        </button>
+
+                        <p class="dashboard__header-desc m-0 p-0">John Snow</p>
+                    </div>
+                </div>
+            </header>
+
+            <main>
+
+                <!-- DASHBOARD HERO SECTION -->
+
+                <section class="dashboard__hero d-flex align-items-center justify-content-between">
+                    <div class="d-flex align-items-center">
+                        <p class="dashboard__hero-desc m-0 p-0">Default</p>
+
+                        <ul class="dashboard__hero-list list-unstyled d-flex align-items-center ms-4 m-0 p-0">
+                            <li class="dashboard__hero-item">
+                                <i class="bi bi-house-fill"></i>
+                            </li>
+
+                            <li class="dashboard__hero-item">
+                                <span></span>
+                            </li>
+
+                            <li class="dashboard__hero-item">
+                                <p>Dashboards</p>
+                            </li>
+
+                            <li class="dashboard__hero-item">
+                                <span></span>
+                            </li>
+
+                            <li class="dashboard__hero-item">
+                                <p>Default</p>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="d-flex align-items-center">
+                        <button class="dashboard__hero-new-btn hero-btn me-3">New</button>
+
+                        <button class="dashboard__hero-filter-btn hero-btn">Filters</button>
+                    </div>
+                </section>
+
+                <!-- DASHBOARD INFO SECTION -->
+
+                <section class="dashboard__info">
+                    <div class="dashboard__info-card d-flex justify-content-between">
+                        <div>
+                            <p class="dashboard__info-desc">TOTAL TRAFFIC</p>
+
+                            <p class="dashboard__info-amount">350,897</p>
+
+                            <div class="d-flex align-items-cemter">
+                                <i class="bi bi-arrow-up-short"></i>
+
+                                <p class="dashboard__info-percent">3.48%</p>
+
+                                <p class="dashboard__info-period">Since last month</p>
+                            </div>
+                        </div>
+
+                        <img class="dashboard__info-img" src="./images/card-bg.png" alt="img" width="50" height="50">
+                    </div>
+
+                    <div class="dashboard__info-card d-flex justify-content-between">
+                        <div>
+                            <p class="dashboard__info-desc">NEW USERS</p>
+
+                            <p class="dashboard__info-amount">2,356</p>
+
+                            <div class="d-flex align-items-cemter">
+                                <i class="bi bi-arrow-up-short"></i>
+
+                                <p class="dashboard__info-percent">3.48%</p>
+
+                                <p class="dashboard__info-period">Since last month</p>
+                            </div>
+                        </div>
+
+                        <img class="dashboard__info-img" src="./images/card-bg1.png" alt="img" width="50" height="50">
+                    </div>
+
+                    <div class="dashboard__info-card d-flex justify-content-between">
+                        <div>
+                            <p class="dashboard__info-desc">SALES</p>
+
+                            <p class="dashboard__info-amount">924</p>
+
+                            <div class="d-flex align-items-cemter">
+                                <i class="bi bi-arrow-up-short"></i>
+
+                                <p class="dashboard__info-percent">3.48%</p>
+
+                                <p class="dashboard__info-period">Since last month</p>
+                            </div>
+                        </div>
+
+                        <img class="dashboard__info-img" src="./images/card-bg2.png" alt="img" width="50" height="50">
+                    </div>
+
+                    <div class="dashboard__info-card d-flex justify-content-between">
+                        <div>
+                            <p class="dashboard__info-desc">PERFORMANCE</p>
+
+                            <p class="dashboard__info-amount">49,65%</p>
+
+                            <div class="d-flex align-items-cemter">
+                                <i class="bi bi-arrow-up-short"></i>
+
+                                <p class="dashboard__info-percent">3.48%</p>
+
+                                <p class="dashboard__info-period">Since last month</p>
+                            </div>
+                        </div>
+
+                        <img class="dashboard__info-img" src="./images/card-bg3.png" alt="img" width="50" height="50">
+                    </div>
+                </section>
+
+                <!-- DASHBOARD CHARTS SECTION -->
+
+                <section class="dashboard__charts">
+                    <div class="dashboard__charts-overview">
+                        <div class="d-flex align-items-center justify-content-between mb-1">
+                            <div>
+                                <p class="dashboard__charts-desc">OVERVIEW</p>
+
+                                <p class="dashboard__charts-value">Sales value</p>
+                            </div>
+
+                            <div class="d-flex align-items-center">
+                                <button class="dashboard__charts-month-btn">Month</button>
+
+                                <button class="dashboard__charts-week-btn">Week</button>
+                            </div>
+                        </div>
+
+                        <img class="dashboard__charts-img" src="./images/overview.png" alt="chart" height="347">
+                    </div>
+
+                    <div class="dashboard__charts-performance">
+                        <div class="mb-1">
+                            <p class="dashboard__charts-perf">PERFORMANCE</p>
+
+                            <p class="dashboard__charts-total">Total orders</p>
+                        </div>
+
+                        <img class="dashboard__charts-img" src="./images/performance.png" alt="chart" height="347">
+                    </div>
+                </section>
+
+                <!-- DASHBOARD WORK SECTION -->
+
+                <section class="dashboard__work">
+                    <div class="dashboard__work-card">
+                        <p class="dashboard__work-desc">Team members</p>
+
+                        <ul class="dashboard__work-list list-unstyled m-0 p-0">
+                            <li class="dashboard__work-item">
+                                <div class="d-flex align-items-center">
+                                    <img class="dashboard__work-avatar" src="./images/avatar.png" alt="icon" width="48" height="48">
+
+                                    <div class="dashboard__work-wrapper ms-3">
+                                        <p class="dashboard__work-name">John Michael</p>
+
+                                        <p class="dashboard__work-condition">Online</p>
+                                    </div>
+                                </div>
+
+                                <button class="dashboard__work-btn">Add</button>
+                            </li>
+
+                            <li class="dashboard__work-item">
+                                <div class="d-flex align-items-center">
+                                    <img class="dashboard__work-avatar" src="./images/avatar.png" alt="icon" width="48" height="48">
+
+                                    <div class="dashboard__work-wrapper ms-3">
+                                        <p class="dashboard__work-name">John Michael</p>
+
+                                        <p class="dashboard__work-condition">Online</p>
+                                    </div>
+                                </div>
+
+                                <button class="dashboard__work-btn">Add</button>
+                            </li>
+
+                            <li class="dashboard__work-item">
+                                <div class="d-flex align-items-center">
+                                    <img class="dashboard__work-avatar" src="./images/avatar.png" alt="icon" width="48" height="48">
+
+                                    <div class="dashboard__work-wrapper ms-3">
+                                        <p class="dashboard__work-name">John Michael</p>
+
+                                        <p class="dashboard__work-condition">Online</p>
+                                    </div>
+                                </div>
+
+                                <button class="dashboard__work-btn">Add</button>
+                            </li>
+
+                            <li class="dashboard__work-item">
+                                <div class="d-flex align-items-center">
+                                    <img class="dashboard__work-avatar" src="./images/avatar.png" alt="icon" width="48" height="48">
+
+                                    <div class="dashboard__work-wrapper ms-3">
+                                        <p class="dashboard__work-name">John Michael</p>
+
+                                        <p class="dashboard__work-condition">Online</p>
+                                    </div>
+                                </div>
+
+                                <button class="dashboard__work-btn">Add</button>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="dashboard__todo-card">
+                        <p class="dashboard__todo-desc">To do list</p>
+
+                        <ul class="dashboard__todo-list list-unstyled m-0 p-0">
+                            <li class="dashboard__todo-item">
+                                <div class="d-flex align-items-center">
+                                    <span class="dashboard__todo-span bg-success"></span>
+
+                                    <div class="dashboard__work-wrapper ms-2">
+                                        <p class="dashboard__todo-title text-decoration-line-through">Call with Dave</p>
+
+                                        <p class="dashboard__todo-time text-decoration-line-through">10:30 AM</p>
+                                    </div>
+                                </div>
+
+                                <input  class="dashboard__todo-checkbox" type="checkbox" checked>
+                            </li>
+
+                            <li class="dashboard__todo-item">
+                                <div class="d-flex align-items-center">
+                                    <span class="dashboard__todo-span bg-danger-subtle"></span>
+
+                                    <div class="dashboard__work-wrapper ms-2">
+                                        <p class="dashboard__todo-title">Lunch meeting</p>
+
+                                        <p class="dashboard__todo-time">11:30 AM</p>
+                                    </div>
+                                </div>
+
+                                <input  class="dashboard__todo-checkbox" type="checkbox" >
+                            </li>
+
+                            <li class="dashboard__todo-item">
+                                <div class="d-flex align-items-center">
+                                    <span class="dashboard__todo-span bg-info"></span>
+
+                                    <div class="dashboard__work-wrapper ms-2">
+                                        <p class="dashboard__todo-title">Argon Dashboard Launch</p>
+
+                                        <p class="dashboard__todo-time">12:30 AM</p>
+                                    </div>
+                                </div>
+
+                                <input  class="dashboard__todo-checkbox" type="checkbox">
+                            </li>
+
+                            <li class="dashboard__todo-item">
+                                <div class="d-flex align-items-center">
+                                    <span class="dashboard__todo-span bg-danger"></span>
+
+                                    <div class="dashboard__work-wrapper ms-2">
+                                        <p class="dashboard__todo-title">Winter Hackaton</p>
+
+                                        <p class="dashboard__todo-time">13:30 AM</p>
+                                    </div>
+                                </div>
+
+                                <input  class="dashboard__todo-checkbox" type="checkbox">
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="dashboard__progress-card">
+                        <p class="dashboard__progress-desc">Progress track</p>
+
+                        <ul class="dashboard__progress-list list-unstyled m-0 p-0">
+                            <li class="dashboard__progress-item">
+                                <img class="dashboard__progress-icon" src="./images/bootstrap.png" alt="icon" width="48" height="48">
+
+                                <div class="ms-3">
+                                    <p class="dashboard__progress-title">Argon Design System</p>
+
+                                    <img class="dashboard__progress-img" src="./images/bline.png" alt="img">
+                                </div>
+                            </li>
+
+                            <li class="dashboard__progress-item">
+                                <img class="dashboard__progress-icon" src="./images/angular.png" alt="icon" width="48" height="48">
+
+                                <div class="ms-3">
+                                    <p class="dashboard__progress-title">Angular Now UI Kit PRO</p>
+
+                                    <img class="dashboard__progress-img" src="./images/aline.png" alt="img">
+                                </div>
+                            </li>
+
+                            <li class="dashboard__progress-item">
+                                <img class="dashboard__progress-icon" src="./images/ruby.png" alt="icon" width="48" height="48">
+
+                                <div class="ms-3">
+                                    <p class="dashboard__progress-title">Black Dashboard</p>
+
+                                    <img class="dashboard__progress-img" src="./images/rline.png" alt="img">
+                                </div>
+                            </li>
+
+                            <li class="dashboard__progress-item">
+                                <img class="dashboard__progress-icon" src="./images/react.png" alt="icon" width="48" height="48">
+
+                                <div class="ms-3">
+                                    <p class="dashboard__progress-title">React Material Dashboard</p>
+
+                                    <img class="dashboard__progress-img" src="./images/reline.png" alt="img">
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!-- DASHBOARD ACTIVITY SECTION -->
+
+                <section class="dashboard__activity">
+                    <div class="dashboard__activity-card">
+                        <p class="dashboard__activity-desc">Activity feed</p>
+
+                        <div class="dashboard__activity-wrapper">
+                            <div class="d-flex align-items-center">
+                                <img class="dashboard__activity-avatar" src="./images/avatar2.png" alt="icon" width="48px" height="48px">
+
+                                <div class="ms-3">
+                                    <p class="dashboard__activity-name">John Snow</p>
+
+                                    <p class="dashboard__activity-date">3 days ago</p>
+                                </div>
+                            </div>
+
+                            <button class="dashboard__activity-follow-btn">
+                                <span>+</span>
+
+                                Follow
+                            </button>
+                        </div>
+
+                        <p class="dashboard__activity-task">Personal profiles are the perfect way for you to grab their attention and persuade recruiters to continue reading your CV because you’re telling them from the off exactly why they should hire you.</p>
+
+                        <img class="dashboard__activity-bg" src="./images/activity-bg.jpeg" alt="img">
+
+                        <span class="dashboard__activity-span"></span>
+
+                        <div class="dashboard__activity-comment">
+
+                            <img class="dashboard__activity-comment-img" src="./images/avatar3.png" alt="img" width="58px" height="58">
+
+                            <p class="dashboard__activity-comment-title">Michael Lewis</p>
+
+                            <p class="dashboard__activity-comment-desc">Cras sit amet nibh libero nulla vel metus scelerisque ante sollicitudin. Cras purus odio vestibulum in vulputate viverra turpis.</p>
+
+                            <div class="d-flex align-items-center">
+                                <span>👍</span>
+
+                                <p class="m-0 p-0 ms-3">3 likes</p>
+
+                                <i class="bi bi-share ms-4"></i>
+
+                                <p class="m-0 p-0 ms-3">2 shares</p>
+                            </div>
+                        </div>
+
+                        <div class="dashboard__activity-comment">
+
+                            <img class="dashboard__activity-comment-img" src="./images/avatar3.png" alt="img" width="58px" height="58">
+
+                            <p class="dashboard__activity-comment-title">Michael Lewis</p>
+
+                            <p class="dashboard__activity-comment-desc">Cras sit amet nibh libero nulla vel metus scelerisque ante sollicitudin. Cras purus odio vestibulum in vulputate viverra turpis.</p>
+
+                            <div class="d-flex align-items-center">
+                                <span>👍</span>
+
+                                <p class="m-0 p-0 ms-3">3 likes</p>
+
+                                <i class="bi bi-share ms-4"></i>
+
+                                <p class="m-0 p-0 ms-3">2 shares</p>
+                            </div>
+                        </div>
+
+                        <span class="dashboard__activity-span"></span>
+
+                        <div class="d-flex align-items-center mt-4">
+                            <img class="rounded-circle" src="./images/avatar3.png" alt="img" width="68" height="68">
+
+                            <input class="dashboard__activity-input" type="text" placeholder="Write your comment...">
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="dashboard__activity-table">
+                            <p class="dashboard__activity-table-desc">Light table</p>
+
+                            <table class="dashboard__activity-list w-100">
+                                <thead>
+                                    <tr class="dashboard__activity-item-title">
+                                        <th>PROJECT</th>
+                                        <th>BUDGET</th>
+                                        <th>STATUS</th>
+                                        <th>USERS</th>
+                                        <th>COMPLETION</th>
+                                    </tr>
+                                </thead>
+
+                                <tbody>
+                                    <tr class="dashboard__activity-item">
+                                        <td>
+                                            <div class="d-flex align-items-center">
+                                                <img src="./images/bootstrap.png" alt="icon" width="48" height="48">
+
+                                                <p class="dashboard__activity-item-name">Argon Design System</p>
+                                            </div>
+                                        </td>
+
+                                        <td>
+                                            <p class="dashboard__activity-item-price">$2500 USD</p>
+                                        </td>
+
+                                        <td>
+                                            <p class="dashboard__activity-item-result">pending</p>
+                                        </td>
+
+                                        <td>
+                                            <img src="./images/table-bg.png" alt="img" width="107" height="36">
+                                        </td>
+
+                                        <td>
+                                            <div class="d-flex align-items-center">
+                                                <p class="dashboard__activity-item-percentage">60%</p>
+
+                                                <img class="ms-3 dashboard__activity-item-line" src="./images/bline.png" alt="img">
+                                            </div>
+                                        </td>
+                                    </tr>
+
+                                    <tr class="dashboard__activity-item">
+                                        <td>
+                                            <div class="d-flex align-items-center">
+                                                <img src="./images/angular.png" alt="icon" width="48" height="48">
+
+                                                <p class="dashboard__activity-item-name">Angular Now UI Kit PRO</p>
+                                            </div>
+                                        </td>
+
+                                        <td>
+                                            <p class="dashboard__activity-item-price">$1800 USD</p>
+                                        </td>
+
+                                        <td>
+                                            <p class="dashboard__activity-item-result">delayed</p>
+                                        </td>
+
+                                        <td>
+                                            <img src="./images/table-bg.png" alt="img" width="107" height="36">
+                                        </td>
+
+                                        <td>
+                                            <div class="d-flex align-items-center">
+                                                <p class="dashboard__activity-item-percentage">60%</p>
+
+                                                <img class="ms-3 dashboard__activity-item-line" src="./images/aline.png" alt="img">
+                                            </div>
+                                        </td>
+                                    </tr>
+
+                                    <tr class="dashboard__activity-item">
+                                        <td>
+                                            <div class="d-flex align-items-center">
+                                                <img src="./images/ruby.png" alt="icon" width="48" height="48">
+
+                                                <p class="dashboard__activity-item-name">Black Dashboard</p>
+                                            </div>
+                                        </td>
+
+                                        <td>
+                                            <p class="dashboard__activity-item-price">$3150 USD</p>
+                                        </td>
+
+                                        <td>
+                                            <p class="dashboard__activity-item-result">completed</p>
+                                        </td>
+
+                                        <td>
+                                            <img src="./images/table-bg.png" alt="img" width="107" height="36">
+                                        </td>
+
+                                        <td>
+                                            <div class="d-flex align-items-center">
+                                                <p class="dashboard__activity-item-percentage">60%</p>
+
+                                                <img class="ms-3 dashboard__activity-item-line" src="./images/rline.png" alt="img">
+                                            </div>
+                                        </td>
+                                    </tr>
+
+                                    <tr class="dashboard__activity-item">
+                                        <td>
+                                            <div class="d-flex align-items-center">
+                                                <img src="./images/react.png" alt="icon" width="48" height="48">
+
+                                                <p class="dashboard__activity-item-name">React Material Dashboard</p>
+                                            </div>
+                                        </td>
+
+                                        <td>
+                                            <p class="dashboard__activity-item-price">$4400 USD</p>
+                                        </td>
+
+                                        <td>
+                                            <p class="dashboard__activity-item-result">on schedule</p>
+                                        </td>
+
+                                        <td>
+                                            <img src="./images/table-bg.png" alt="img" width="107" height="36">
+                                        </td>
+
+                                        <td>
+                                            <div class="d-flex align-items-center">
+                                                <p class="dashboard__activity-item-percentage">60%</p>
+
+                                                <img class="ms-3 dashboard__activity-item-line" src="./images/reline.png" alt="img">
+                                            </div>
+                                        </td>
+                                    </tr>
+
+                                    <tr class="dashboard__activity-item">
+                                        <td>
+                                            <div class="d-flex align-items-center">
+                                                <img src="./images/bootstrap.png" alt="icon" width="48" height="48">
+
+                                                <p class="dashboard__activity-item-name">Argon Design System</p>
+                                            </div>
+                                        </td>
+
+                                        <td>
+                                            <p class="dashboard__activity-item-price">$2500 USD</p>
+                                        </td>
+
+                                        <td>
+                                            <p class="dashboard__activity-item-result">pending</p>
+                                        </td>
+
+                                        <td>
+                                            <img src="./images/table-bg.png" alt="img" width="107" height="36">
+                                        </td>
+
+                                        <td>
+                                            <div class="d-flex align-items-center">
+                                                <p class="dashboard__activity-item-percentage">60%</p>
+
+                                                <img class="ms-3 dashboard__activity-item-line" src="./images/bline.png" alt="img">
+                                            </div>
+                                        </td>
+                                    </tr>
+
+                                    <tr class="dashboard__activity-item">
+                                        <td>
+                                            <div class="d-flex align-items-center">
+                                                <img src="./images/angular.png" alt="icon" width="48" height="48">
+
+                                                <p class="dashboard__activity-item-name">Angular Now UI Kit PRO</p>
+                                            </div>
+                                        </td>
+
+                                        <td>
+                                            <p class="dashboard__activity-item-price">$1800 USD</p>
+                                        </td>
+
+                                        <td>
+                                            <p class="dashboard__activity-item-result">delayed</p>
+                                        </td>
+
+                                        <td>
+                                            <img src="./images/table-bg.png" alt="img" width="107" height="36">
+                                        </td>
+
+                                        <td>
+                                            <div class="d-flex align-items-center">
+                                                <p class="dashboard__activity-item-percentage">60%</p>
+
+                                                <img class="ms-3 dashboard__activity-item-line" src="./images/aline.png" alt="img">
+                                            </div>
+                                        </td>
+                                    </tr>
+
+                                    <tr class="dashboard__activity-item">
+                                        <td>
+                                            <div class="d-flex align-items-center">
+                                                <img src="./images/ruby.png" alt="icon" width="48" height="48">
+
+                                                <p class="dashboard__activity-item-name">Black Dashboard</p>
+                                            </div>
+                                        </td>
+
+                                        <td>
+                                            <p class="dashboard__activity-item-price">$3150 USD</p>
+                                        </td>
+
+                                        <td>
+                                            <p class="dashboard__activity-item-result">completed</p>
+                                        </td>
+
+                                        <td>
+                                            <img src="./images/table-bg.png" alt="img" width="107" height="36">
+                                        </td>
+
+                                        <td>
+                                            <div class="d-flex align-items-center">
+                                                <p class="dashboard__activity-item-percentage">60%</p>
+
+                                                <img class="ms-3 dashboard__activity-item-line" src="./images/rline.png" alt="img">
+                                            </div>
+                                        </td>
+                                    </tr>
+
+                                    <tr class="dashboard__activity-item">
+                                        <td>
+                                            <div class="d-flex align-items-center">
+                                                <img src="./images/react.png" alt="icon" width="48" height="48">
+
+                                                <p class="dashboard__activity-item-name">React Material Dashboard</p>
+                                            </div>
+                                        </td>
+
+                                        <td>
+                                            <p class="dashboard__activity-item-price">$4400 USD</p>
+                                        </td>
+
+                                        <td>
+                                            <p class="dashboard__activity-item-result">on schedule</p>
+                                        </td>
+
+                                        <td>
+                                            <img src="./images/table-bg.png" alt="img" width="107" height="36">
+                                        </td>
+
+                                        <td>
+                                            <div class="d-flex align-items-center">
+                                                <p class="dashboard__activity-item-percentage">60%</p>
+
+                                                <img class="ms-3 dashboard__activity-item-line" src="./images/reline.png" alt="img">
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <div class="dashboard__activity-card-wrapper mt-4">
+                            <div class="dashboard__activity-ads">
+                                <div class="d-flex align-items-center">
+                                    <span class="dashboard__activity-ads-span me-2">$</span>
+
+                                    <p class="dashboard__activity-ads-desc">3,300</p>
+                                </div>
+
+                                <p class="dashboard__activity-ads-balabce">Your current balance</p>
+
+                                <div class="d-flex align-items-center">
+                                    <span class="text-success">+ 15%</span>
+
+                                    <span class="text-secondary">(250$)</span>
+                                </div>
+
+                                <button class="dashboard__activity-ads-btn">Add credit</button>
+
+                                <div class="d-flex align-items-center justify-content-between mt-5">
+                                    <span class="text-light">Orders: 60%</span>
+
+                                    <span class="text-light">Sales: 40%</span>
+                                </div>
+                            </div>
+
+                            <div class="dashboard__activity-ads">
+                                <div class="d-flex align-items-center">
+                                    <span class="dashboard__activity-ads-span me-2">$</span>
+
+                                    <p class="dashboard__activity-ads-desc">3,300</p>
+                                </div>
+
+                                <p class="dashboard__activity-ads-balabce">Your current balance</p>
+
+                                <div class="d-flex align-items-center">
+                                    <span class="text-success">+ 15%</span>
+
+                                    <span class="text-secondary">(250$)</span>
+                                </div>
+
+                                <button class="dashboard__activity-ads-btn">Add credit</button>
+
+                                <div class="d-flex align-items-center justify-content-between mt-5">
+                                    <span class="text-light">Orders: 60%</span>
+
+                                    <span class="text-light">Sales: 40%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+
+            <!-- FOOTER -->
+
+            <footer class="dashboard__footer d-flex align-items-center justify-content-between">
+                <div class="d-flex align-items-center">
+                    <p class="dashboard__footer-year">© 2020</p>
+
+                    <a class="dashboard__footer-link2" href="#">Creative Tim</a>
+                </div>
+
+                <ul class="dashboard__footer-list d-flex align-items-center list-unstyled">
+                    <li class="dashboard__footer-item">
+                        <a class="dashboard__footer-link" href="#">Creative Tim</a>
+                    </li>
+
+                    <li class="dashboard__footer-item">
+                        <a class="dashboard__footer-link" href="#">About Us</a>
+                    </li>
+
+                    <li class="dashboard__footer-item">
+                        <a class="dashboard__footer-link" href="#">Blog</a>
+                    </li>
+
+                    <li class="dashboard__footer-item">
+                        <a class="dashboard__footer-link" href="#">License</a>
+                    </li>
+                </ul>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
